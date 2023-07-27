@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+            <link rel="stylesheet"  href="static/css/style.css" />
+
     <meta charset="UTF-8">
     <title></title>
 </head>
 <body>
+            <!-- Post creation form -->
+            <h2 class = "post ">Create Post</h2>
+            <form method="post" action="/post" enctype="multipart/form-data">
+
+
+    <input type="text" name="caption" placeholder="caption"/>
+    <input type="file" name="post" placeholder="Photo"/>
+    <input type="submit" value="Submit" >
     
-</body>
+ <div>
+       
+    </div>
+
+</form>
+
+    
+{%for post in posts%}
+<p>{{posts[post]['caption']}}</p>
+<img src = "static/images/posts/{{posts[post]['photo']}}" class="img-small">
+    {% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+            </body>
 </html>

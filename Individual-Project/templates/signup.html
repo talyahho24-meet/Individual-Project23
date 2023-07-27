@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+        <link rel="stylesheet"  href="static/css/style.css" />
+
+    <title></title>
+</head>
+<body>
+    <h1 class = "signup"> welcome to starlink. </h1>
+    <h2 class = "signup2"> Please fill the information bellow to join the sea of stars </h2>
+
+    <form method="post" action="/signup">
+
+ <!-- Password -->
+        <div>
+            <label>name</label>
+            <div class="input-group">
+                <input type="name"  name="name" minlength="2">
+            </div>
+        </div>
+<!-- Email -->
+        <div>
+            <label>Email address*</label>
+            <div>
+                <input type="email"  name="email" id="emailStr" minlength="7" required>
+            </div>
+        </div>
+
+         <!-- Password -->
+        <div>
+            <label>username*</label>
+            <div class="input-group">
+                <input type="username"  name="username" minlength="2">
+            </div>
+        </div>
+
+         <!-- Password -->
+        <div>
+            <label>Password</label>
+            <div class="input-group">
+                <input type="password"  name="password" minlength="6">
+            </div>
+        </div>
+ 
+  
+
+                 <!-- bio -->
+
+        <div>
+
+            <label>bio*</label>
+            <div>
+                <input type="bio"  name="bio" id="bio" minlength = "7" maxlength="280" required>
+            </div>
+        </div>
+
+         <!-- Button -->
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
+    <br>
+    <a href="/signup"><button>signup</button></a>
+
+</body>
+</html>

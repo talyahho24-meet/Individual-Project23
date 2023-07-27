@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <link rel="stylesheet"  href="static/css/style.css" />
+
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h1> Sign up to enjoy starlink</h1>
+
+ 
+<!-- Email -->
+    <form method="post" action="/signin">
+
+
+        <div>
+            <label>Email address*</label>
+            <div>
+                <input type="email"  name="email" id="emailStr" required>
+            </div>
+        </div>
+
+
+         <!-- Password -->
+        <div>
+            <label>Password*</label>
+            <div class="input-group">
+                <input type="password"  name="password" minlength="6">
+            </div>
+        </div>
+
+
+  <!-- Button -->
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
+    <br>
+    <a href="/signup"><button>signin</button></a>
+</body>
+</html>

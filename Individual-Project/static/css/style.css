@@ -1,0 +1,120 @@
+/*.egg {
+	  background-image: url("egg.jpg");
+*/
+
+body {
+background-color: lightblue;
+}
+/*h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 30vh; /* Adjust as needed to vertically center */}
+
+    @font-face {
+  font-family: 'Distant Galaxy';
+  src: url('DistantGalaxy-Regular.eot'); /* IE9 Compat Modes */
+  src: url('DistantGalaxy-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('DistantGalaxy-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('DistantGalaxy-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('DistantGalaxy-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('DistantGalaxy-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+h1 {
+  font-family: 'Distant Galaxy', cursive;
+  font-size: 5em;
+  text-align: center;
+  padding-top: 30vh;
+}
+
+.button {
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button-white {
+    background-color: white;
+    color: black;
+}
+
+.button-black {
+    background-color: white;
+    color: black;
+}
+
+.signup {
+  font-family: 'Distant Galaxy', cursive;
+  font-size: 5em;
+  text-align: center;
+  padding-top: 30vh;
+}
+.signup2 {
+  font-family: 'Distant Galaxy', cursive;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+label {
+    display: block; /* This makes the label appear on its own line, above the input field */
+    font-size: 20px; /* Increase this to make the label text larger */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center; /* This will center the text of the label */
+}
+
+.input-group input[type="name"], 
+.input-group input[type="email"], 
+.input-group input[type="username"], 
+.input-group input[type="password"], 
+.input-group input[type="bio"] {
+    display: block;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 0 auto 20px; /* This will center the input field on the page and adds 20px margin at the bottom */
+}
+
+input[type="submit"], button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #719ECE;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease-in-out;
+}
+
+}
+.post{
+  font-family: 'Distant Galaxy', cursive;
+  font-size: 5em;
+  padding-top: 30vh;
+}
